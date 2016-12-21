@@ -3,6 +3,11 @@
 Hi Chat is an application which use Firebase.
 * [Video Demo Youtube](http://bit.ly/2hV7xkD)
 
+Download app
+====== 
+* [HiChat-release.apk](http://bit.ly/2h9Tp67)
+![QR code](screenshots/qr_code.jpg)
+
 Pre-requisites
 ======
 - Pre-requisites
@@ -30,6 +35,3 @@ Online config
 Edit or Delete my message sent
 ======
 ![Demo](https://j.gifs.com/98Xp2Y.gif)
-Download app
-====== 
-* [HiChat-release.apk](http://bit.ly/2h9Tp67)
