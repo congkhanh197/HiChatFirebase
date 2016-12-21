@@ -14,6 +14,7 @@ Pre-requisites
 
 Login
 =====
+![login](screenshots/Screenshot_2016-12-21-20-36-50.png)
 ![Demo](https://j.gifs.com/Nx18Qz.gif)
 
 Chat Windown and Navigation View to show List User online, all of them use Recycle View
@@ -35,3 +36,12 @@ Online config
 Edit or Delete my message sent
 ======
 ![Demo](https://j.gifs.com/98Xp2Y.gif)
+
+Notification
+======
+![notification](screenshots/Screenshot_2016-12-21-20-37-54.png)
+Menu
+========
+![Menu](screenshots/Screenshot_2016-12-21-20-37-21.png)
+![Menuother](screenshots/Screenshot_2016-12-21-20-37-27.png)
+![Menumymessage](screenshots/Screenshot_2016-12-21-20-37-33.png)
