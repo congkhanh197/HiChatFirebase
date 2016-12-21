@@ -10,10 +10,11 @@ public class StatusMessage {
     private String photoUrl;
     private String status;
 
-    public StatusMessage() {
+    public StatusMessage(){
+
     }
 
-    public StatusMessage(String name, String photoUrl, String status) {
+    protected StatusMessage(String name, String photoUrl, String status) {
         this.name = name;
         this.photoUrl = photoUrl;
         this.status = status;

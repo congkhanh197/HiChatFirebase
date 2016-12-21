@@ -23,13 +23,13 @@ public class MyFirebaseArray implements ChildEventListener {
     private OnChangedListener mListener;
     private ArrayList<DataSnapshot> mSnapshots;
 
-    public MyFirebaseArray(Query ref) {
+    protected MyFirebaseArray(Query ref) {
         mQuery = ref;
-        mSnapshots = new ArrayList<DataSnapshot>();
+        mSnapshots = new ArrayList<>();
         mQuery.addChildEventListener(this);
     }
 
-    public void cleanup() {
+    protected void cleanup() {
         mQuery.removeEventListener(this);
     }
 
@@ -37,12 +37,12 @@ public class MyFirebaseArray implements ChildEventListener {
         return mSnapshots.size();
     }
 
-    protected boolean filter(DataSnapshot dataSnapshot, int index) {
-        return true;
-    }
-
     public DataSnapshot getItem(int index) {
         return mSnapshots.get(index);
+    }
+
+    protected boolean filter(DataSnapshot dataSnapshot, String previousChildKey){
+        return true;
     }
 
     private int getIndexForKey(String key) {
@@ -59,32 +59,42 @@ public class MyFirebaseArray implements ChildEventListener {
 
     // Start of ChildEventListener methods
     public void onChildAdded(DataSnapshot snapshot, String previousChildKey) {
-        int index = 0;
-        if (previousChildKey != null) {
-            index = getIndexForKey(previousChildKey) + 1;
+        if(filter(snapshot,previousChildKey)){
+            int index = 0;
+            if (previousChildKey != null) {
+                //index = getIndexForKey(previousChildKey) + 1;
+                index = mSnapshots.size();
+            }
+            mSnapshots.add(index, snapshot);
+            notifyChangedListeners(OnChangedListener.EventType.Added, index);
         }
-        mSnapshots.add(index, snapshot);
-        notifyChangedListeners(OnChangedListener.EventType.Added, index);
     }
 
     public void onChildChanged(DataSnapshot snapshot, String previousChildKey) {
-        int index = getIndexForKey(snapshot.getKey());
-        mSnapshots.set(index, snapshot);
-        notifyChangedListeners(OnChangedListener.EventType.Changed, index);
+        if(filter(snapshot,previousChildKey)){
+            int index = getIndexForKey(snapshot.getKey());
+            mSnapshots.set(index, snapshot);
+            notifyChangedListeners(OnChangedListener.EventType.Changed, index);
+        }
+
     }
 
     public void onChildRemoved(DataSnapshot snapshot) {
-        int index = getIndexForKey(snapshot.getKey());
-        mSnapshots.remove(index);
-        notifyChangedListeners(OnChangedListener.EventType.Removed, index);
+        if(filter(snapshot,"")) {
+            int index = getIndexForKey(snapshot.getKey());
+            mSnapshots.remove(index);
+            notifyChangedListeners(OnChangedListener.EventType.Removed, index);
+        }
     }
 
     public void onChildMoved(DataSnapshot snapshot, String previousChildKey) {
-        int oldIndex = getIndexForKey(snapshot.getKey());
-        mSnapshots.remove(oldIndex);
-        int newIndex = previousChildKey == null ? 0 : (getIndexForKey(previousChildKey) + 1);
-        mSnapshots.add(newIndex, snapshot);
-        notifyChangedListeners(OnChangedListener.EventType.Moved, newIndex, oldIndex);
+        if(filter(snapshot,previousChildKey)) {
+            int oldIndex = getIndexForKey(snapshot.getKey());
+            mSnapshots.remove(oldIndex);
+            int newIndex = previousChildKey == null ? 0 : (getIndexForKey(previousChildKey) + 1);
+            mSnapshots.add(newIndex, snapshot);
+            notifyChangedListeners(OnChangedListener.EventType.Moved, newIndex, oldIndex);
+        }
     }
 
     public void onCancelled(DatabaseError firebaseError) {

@@ -22,13 +22,13 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MyFirebaseMessageRecycleAdapter extends RecyclerView.Adapter<MyFirebaseMessageRecycleAdapter.MessageViewHolder> {
 
-    public static final int MY_MESSAGE = 1;
-    public static final int OTHER_MESSAGE = 0;
+    protected static final int MY_MESSAGE = 1,OTHER_MESSAGE = 0;
     private String mUserName;
-    MyFirebaseArray mSnapshots;
+    private MyFirebaseArray mSnapshots;
 
-    public MyFirebaseMessageRecycleAdapter(DatabaseReference ref, String userName) {
+    protected MyFirebaseMessageRecycleAdapter(DatabaseReference ref, String userName) {
         mSnapshots = new MyFirebaseArray(ref);
+
         mSnapshots.setOnChangedListener(new MyFirebaseArray.OnChangedListener() {
             @Override
             public void onChanged(EventType type, int index, int oldIndex) {

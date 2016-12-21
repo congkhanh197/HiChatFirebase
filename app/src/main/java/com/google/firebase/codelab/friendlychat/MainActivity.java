@@ -10,9 +10,7 @@ import android.os.Build;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.annotation.NonNull;
-import android.support.annotation.RequiresApi;
 import android.support.design.widget.NavigationView;
-import android.support.v4.content.ContextCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
@@ -37,7 +35,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
-import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.appinvite.AppInvite;
@@ -54,6 +51,7 @@ import com.google.firebase.appindexing.builders.Indexables;
 import com.google.firebase.appindexing.builders.PersonBuilder;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.codelab.friendlychat.Adapter.MyFireBaseListOnlineRecycleAdapter;
 import com.google.firebase.codelab.friendlychat.Adapter.MyFirebaseMessageRecycleAdapter;
 import com.google.firebase.crash.FirebaseCrash;
 import com.google.firebase.database.DatabaseReference;
@@ -68,19 +66,6 @@ import de.hdodenhof.circleimageview.CircleImageView;
 
 public class MainActivity extends AppCompatActivity
         implements GoogleApiClient.OnConnectionFailedListener {
-
-    public static class AccountViewHolder extends RecyclerView.ViewHolder {
-        public TextView accountTextView;
-        public CircleImageView accountImageView, statusImageView;
-
-        public AccountViewHolder(View itemView) {
-            super(itemView);
-            accountTextView = (TextView) itemView.findViewById(R.id.accName);
-            accountImageView = (CircleImageView) itemView.findViewById(R.id.accImageView);
-            statusImageView = (CircleImageView) itemView.findViewById(R.id.accStatusImageView);
-            statusImageView.setEnabled(true);
-        }
-    }
 
     private static final String TAG = "MainActivity";
     public static final String MESSAGES_CHILD = "messages";
@@ -110,7 +95,7 @@ public class MainActivity extends AppCompatActivity
     private DatabaseReference mFirebaseDatabaseReference;
     private MyFirebaseMessageRecycleAdapter
             mFirebaseAdapter;
-    private FirebaseRecyclerAdapter<StatusMessage, AccountViewHolder>
+    private MyFireBaseListOnlineRecycleAdapter
             mFirebaseListOnlineAdapter;
     private FirebaseRemoteConfig mFirebaseRemoteConfig;
     private FirebaseAnalytics mFirebaseAnalytics;
@@ -317,39 +302,33 @@ public class MainActivity extends AppCompatActivity
         mLinearLayoutListOnlineManager.setStackFromEnd(false);
 
 
-        mFirebaseListOnlineAdapter = new FirebaseRecyclerAdapter<StatusMessage,
-                AccountViewHolder>(
-                StatusMessage.class,
-                R.layout.item_acc_online,
-                AccountViewHolder.class,
-                mFirebaseDatabaseReference.child(STATUS_CHILD)) {
-
-            @RequiresApi(api = Build.VERSION_CODES.HONEYCOMB)
-            @Override
-            protected void populateViewHolder(AccountViewHolder viewHolder,
-                                              StatusMessage statusMessage, int position) {
-                viewHolder.accountTextView.setText(statusMessage.getName());
-                if (statusMessage.getPhotoUrl() == null) {
-                    viewHolder.accountImageView
-                            .setImageDrawable(ContextCompat
-                                    .getDrawable(MainActivity.this,
-                                            R.drawable.ic_account_circle_black_36dp));
-                } else {
-                    Glide.with(MainActivity.this)
-                            .load(statusMessage.getPhotoUrl())
-                            .into(viewHolder.accountImageView);
-                }
-                if (statusMessage.getStatus().equals("false"))
-                    viewHolder.statusImageView.setEnabled(false);
-
-                // write this message to the on-device index
-                // FirebaseAppIndex.getInstance().update(getMessageIndexable(statusMessage));
-
-                // log a view action on it
-                // FirebaseUserActions.getInstance().end(getMessageViewAction(statusMessage));
-
-            }
-        };
+//        mFirebaseListOnlineAdapter = new FirebaseRecyclerAdapter<StatusMessage,
+//                AccountViewHolder>(
+//                StatusMessage.class,
+//                R.layout.item_acc_online,
+//                AccountViewHolder.class,
+//                mFirebaseDatabaseReference.child(STATUS_CHILD)) {
+//
+//            @RequiresApi(api = Build.VERSION_CODES.HONEYCOMB)
+//            @Override
+//            protected void populateViewHolder(AccountViewHolder viewHolder,
+//                                              StatusMessage statusMessage, int position) {
+//                viewHolder.accountTextView.setText(statusMessage.getName());
+//                if (statusMessage.getPhotoUrl() == null) {
+//                    viewHolder.accountImageView
+//                            .setImageDrawable(ContextCompat
+//                                    .getDrawable(MainActivity.this,
+//                                            R.drawable.ic_account_circle_black_36dp));
+//                } else {
+//                    Glide.with(MainActivity.this)
+//                            .load(statusMessage.getPhotoUrl())
+//                            .into(viewHolder.accountImageView);
+//                }
+//                if (statusMessage.getStatus().equals("false"))
+//                    viewHolder.statusImageView.setEnabled(false);
+//            }
+//        };
+        mFirebaseListOnlineAdapter = new MyFireBaseListOnlineRecycleAdapter(mFirebaseDatabaseReference.child(STATUS_CHILD),mUserId);
         mFirebaseListOnlineAdapter.registerAdapterDataObserver(new RecyclerView.AdapterDataObserver() {
             @Override
             public void onItemRangeInserted(int positionStart, int itemCount) {
