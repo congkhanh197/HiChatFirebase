@@ -153,7 +153,7 @@ public class MainActivity extends AppCompatActivity
                 mProgressBar.setVisibility(ProgressBar.INVISIBLE);
                 if (getItemViewType(position) == MY_MESSAGE) {
                     final FriendlyMessage friendlyMessage = getItem(position);
-                    holder.messageEditText.setOnLongClickListener(new View.OnLongClickListener() {
+                    holder.messageTextView.setOnLongClickListener(new View.OnLongClickListener() {
                         @Override
                         public boolean onLongClick(final View view) {
                             PopupMenu popupMenu = new PopupMenu(view.getContext(), view, Gravity.END);
@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity
                                     switch (item.getItemId()) {
                                         case R.id.copy_message_menu:
                                             ClipboardManager clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
-                                            ClipData clipData = ClipData.newPlainText("message_text", holder.messageEditText.getText());
+                                            ClipData clipData = ClipData.newPlainText("message_text", holder.messageTextView.getText());
                                             clipboardManager.setPrimaryClip(clipData);
                                             break;
                                         case R.id.edit_message_menu:
@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity
                         }
                     });
                 } else {
-                    holder.messageEditText.setOnLongClickListener(new View.OnLongClickListener() {
+                    holder.messageTextView.setOnLongClickListener(new View.OnLongClickListener() {
                         @Override
                         public boolean onLongClick(View view) {
                             PopupMenu popupMenu = new PopupMenu(view.getContext(), view, Gravity.START);
@@ -226,7 +226,7 @@ public class MainActivity extends AppCompatActivity
                                 @Override
                                 public boolean onMenuItemClick(MenuItem item) {
                                     ClipboardManager clipboardManager = (ClipboardManager) getSystemService(CLIPBOARD_SERVICE);
-                                    ClipData clipData = ClipData.newPlainText("message", holder.messageEditText.getText());
+                                    ClipData clipData = ClipData.newPlainText("message", holder.messageTextView.getText());
                                     clipboardManager.setPrimaryClip(clipData);
                                     return false;
                                 }

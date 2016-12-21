@@ -2,22 +2,373 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\a67c027ba668f90d5f5b4cba2ed950ac2f7862cb\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="b43fc3c2086492e219a89bf7d9862d8e651c3824">
-        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e3b9581a0bc4e8bc50194f48a63a8fc667f9fb43\classes.dex" />
+        sha1="849da156edbc1201f5cd6e237524187442a62af3">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_c9afa2c39c490eef5a6bcad7f091d3112ea70e43.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\59047eb884c74808d8c14d0885af9524200be36a\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.0"
-        sha1="cec1fe26f61ca2bcfc6f062760bf0d8799f718ab">
-        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_44347d55615e3df98f16edc47b8623c38aac3551\classes.dex" />
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_92412acfb7eccdd1a6b18c20f4d5e1c67be39bfd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\098498c02ac6c6d19a148630c78480244da25629\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_30435031779b45ce513790a385f1e9b6262a858d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\4fcc9f71213a99345a3e3d19ec1a3cbbe21e1d9b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="985be85104f6d0c5c5e51e7b7e60d8883a98ac64">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_25d06c632e875c15c850c11b2abf70d95a3761af.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\118c261deae9c9edd47ba74f114389a40a265c1e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3347c3e7056fabc88bdbd8fdae65ddf2b674d977">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_13cf7a478e61b0fca89b3a42dc279789d2792ac1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\7ad803a62dfdc65aeb8ff91104b22e7a52ff2c17\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2b410ae1fda134f470276365f4b7f846269e0d23">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_e8886996e7d21752f2db3e011e68cb2502b47a8e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\03cf04f2b86886aed44fe3ed43de14103baa8aca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bb364f67ec2eba2356872b2b4ddfe8aada2d5ac">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_7698a28d65ce6295cb505865923f56d4db89571a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\4acf5ac9471089d8ebfd4a75ad4ebc5f99f42fdb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="22031b047b12904b888549ba36c0c30d83b1aea1">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_5d9c6af2840b67638f1fbe175a9f1f5ab526d77e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Users\Khanh Tran-Cong\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_a7cdf927309d00059cb9c8eaa4ab7288e55c0d13.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\24dd24b4a9e6c9c62ba381c771b2b15f21932335\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_4cf3b129d1523b45213f9ce4b45784ae29d50140.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\751e27541663757ea385a8bf0a4576070495051d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75dbc3537bc912d077b3db2f5ac72d5b43644b2c">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_f4ec49f648ed12294c3e3ae263475c598be56e02.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\19518acd43ef18f38a844042955e8bbe96fb362d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c2376d0ec8dbe85d3446cad64905c0395fbe220e">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_a01c2bc5a5c96e3fec7740fb186abf3c1c65596f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\bc328d15945e489a01b432142026503ee7cda299\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73fe8ab7f76e41d0cabbc4fa3399557de52efb2d">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_67842d4c11218da170790f88c94d9aa41e34d5ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\fc889f1c0c576ac249a800d8c2493e18e7fb1033\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_75d08551877d4bc0cf578abee48838ddccde3353.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\2ebf062648f1d096521eb89212ac941f2b0d10ca\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_eb7f27f2de52e51aea8eb6171bdd842cc9fc4b0b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\1393be74ce5c174c9291e7f7f2a52238db912c9f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ce6e6e59212db0893fc36e5b579cf319a84aade8">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_99bb1a9e52b26741891a9b4adbd071f13a7b2125.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\6f8b764bae0aa679a72e3a078189ba412e396664\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="777627dcaf0eaacd4212220e8f2d0c63def91774">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_5e6db8d3c1001dbde3639b139ff033570affc94e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\0df0cf83b53fc7c745ce895e7835e2417e0245bd\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26384be22ddc74cfe197ebda9edbc7d1fd8bd537">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_c9cb98832b970fe89ccec922c9b5daee2860d118.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\bc3efd914a1550ccc7287f46f3562e56bcc53c18\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3a05b3852a6aec21ea0a6ea4d284ee69c04c55c4">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_17d2163c221b8c1a42e520ac8cd60763a468abba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\eb094c5bb18964e4557235c56d439c0d954d6097\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0c6d948e6cb9ea6f535d175fb61ba2930719c0e9">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_2d91efe24b4ab8e2cc2482a71b186bc874f8faec.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\24d4f7fb325ec3fc4abf5a3a1d29a8ff2671e089\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="444a220fadbdf260b3aa47c6e858c5d1e645170f">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_d2d645552af3379f7908d2d42698afdba7b06d61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\f3d638759d92b8140c569d493671fcc52219472e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5e497d60f0cb6ce87c458ac5420a46d0fed49bd0">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_212318cf1f858eb4ef245caa6d3ab88d495f4d11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\24dd24b4a9e6c9c62ba381c771b2b15f21932335\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_052cea6fc25d92b985699709d7571e5416e508ca.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\2ebf062648f1d096521eb89212ac941f2b0d10ca\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_739feb8c33940fe57f4e5a37facc53d716cf8064.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\1001a1ab0151dd4428921dbe484fb4e06d9074bf\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fb0229499e600b485a276d4e31161a3ae31c144c">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_97b1896d49f7ee8bd745f7caef0ee36794cd9520.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\7301c41de94c9f1210ccf8ddc5d60c71ce8f003a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a383a583c346ce8ea5767d77f4fe58e1d8e5f221">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_63f767f7bebd8b466429d23171efda303cc94e04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\fc889f1c0c576ac249a800d8c2493e18e7fb1033\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_3b97ef352fb18e3dde695122d37a119d6e348944.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\608021dad93c29fb063003c5a29455718aa00bf4\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca730ac2d72056445bf68998cec6b6b2cf4d179e">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_ce4fa91bfaabcd60690f6c97d99fc82334456e73.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\475586684a61a2c31e5a66bab03f5a9853bddcc0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ac6948cce36f694f3eb3d73a135e298dc4b3527a">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_eb8c23057dbdc43d2cc716aa5a39e00e2165d7b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\917ed0fb11665aaa53b01c9da5e9c0b75870162d\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_8d464a075f04bb2e76fae245114bee0d8c594d59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.6.1\86b122e640af09b0723e1fa44083c354ba6d9089\glide-3.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\glide-3.6.1_7176617dbd40fb47fd2462ae0db5eb283ad4cde4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\f3f850991f55574bbaaaf972f4e7266a31dd1639\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_191186c021e114456654071a3c707a9fe7172625.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\c22085442edee1002f84745895e30685e121abe2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="41e39c7ee84e63ae18df6c6ccb96d196996add4c">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_77faf03fe13135b17115c8fdafb84e3cbb77bfc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\cd961fbe4e576ef1ed622dd45b333e0e3626ded3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_b7b96782526e8316e74fab03265f9212a5f63873.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\5fb912dfc478fd7bdc5128e47525c39c984b4fba\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_09b360109826d690b54826b87dfdff3fc8e85f7d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\bc0b680a77617501865c8ccf1236c91be5c3f91e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73a2c740a76aa4ba46168ed8bcdee1966e48a589">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_03b8266fd3aa28a9a605ea130f4e31fc83baeda6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\0e8b54ad285ff264d91fb76b349cd3b5ef2aa3fb\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a61005619e43f203768ff3f224137def6f029e50">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_31bda595c67dd42fe2d9b03ec29cb03bdb344f38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\c7639ad4fb12b0f95a23361028aba76e5c378995\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ae809d521d9f7da5337a82edd64eea23a76e788d">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_580f06589652974ef11f8780e9fba8ed86d686a8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\917ed0fb11665aaa53b01c9da5e9c0b75870162d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_36f3ca9b3f920b15aeea37dad0d64f03549075b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\8683d1cb6f85b62b4e489566110da535bbb96cf2\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c7ed3fd9d5a9687980dac6c504abd91ad3dfa238">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\classes_ea83f8552e862dc5cb0714e7b2d7df9310667312.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Khanh Tran-Cong\.android\build-cache\5fb912dfc478fd7bdc5128e47525c39c984b4fba\output\jars\libs\internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="D:\Users\Khanh Tran-Cong\AndroidStudioProjects\HiChatFirebase\app\build\intermediates\pre-dexed\debug\internal_impl-25.0.0_c6b4ad52b93442399139fbc412de2de196f2fc95.jar" />
     </item>
 
 </items>

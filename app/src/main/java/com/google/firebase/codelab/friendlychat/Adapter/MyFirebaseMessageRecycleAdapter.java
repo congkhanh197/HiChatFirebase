@@ -5,7 +5,6 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.EditText;
 import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
@@ -64,7 +63,7 @@ public class MyFirebaseMessageRecycleAdapter extends RecyclerView.Adapter<MyFire
         FriendlyMessage friendlyMessage = getItem(position);
         if (friendlyMessage != null) {
             holder.itemView.setTag(position);
-            holder.messageEditText.setText(friendlyMessage.getText());
+            holder.messageTextView.setText(friendlyMessage.getText());
             holder.messengerTextView.setText(friendlyMessage.getName());
             if (friendlyMessage.getPhotoUrl() == null) {
                 holder.messengerImageView
@@ -101,13 +100,13 @@ public class MyFirebaseMessageRecycleAdapter extends RecyclerView.Adapter<MyFire
     }
 
     public class MessageViewHolder extends RecyclerView.ViewHolder {
-        public EditText messageEditText;
+        public TextView messageTextView;
         public TextView messengerTextView;
         public CircleImageView messengerImageView;
 
         public MessageViewHolder(View v) {
             super(v);
-            messageEditText = (EditText) v.findViewById(R.id.messageTextView);
+            messageTextView = (TextView) v.findViewById(R.id.messageTextView);
             messengerTextView = (TextView) v.findViewById(R.id.messengerTextView);
             messengerImageView = (CircleImageView) v.findViewById(R.id.messengerImageView);
         }

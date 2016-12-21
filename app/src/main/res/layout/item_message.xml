@@ -30,12 +30,11 @@
             android:layout_height="7dp"
             android:src="@drawable/arrow_bg2" />
 
-        <EditText
+        <TextView
             android:id="@+id/messageTextView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="5dp"
-            android:focusable="false"
             android:textColor="#000000"
             android:background="@drawable/background_message2"
             android:textAppearance="?android:attr/textAppearanceMedium" />
