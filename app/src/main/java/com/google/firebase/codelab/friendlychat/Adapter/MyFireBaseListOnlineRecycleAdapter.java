@@ -103,6 +103,7 @@ public class MyFireBaseListOnlineRecycleAdapter extends RecyclerView.Adapter<MyF
             accTextView = (TextView) v.findViewById(R.id.accName);
             accImageView = (CircleImageView) v.findViewById(R.id.accImageView);
             accStatusImageView = (CircleImageView) v.findViewById(R.id.accStatusImageView);
+            accStatusImageView.setEnabled(true);
         }
     }
 }

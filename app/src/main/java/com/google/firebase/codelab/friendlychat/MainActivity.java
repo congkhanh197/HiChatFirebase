@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity
     private AdView mAdView;
 
     //Navigation Header
-    private CircleImageView mUserImageViewNav;
+    private CircleImageView mUserImageViewNav,mUserStatus;
     private TextView mUserNameNav, mUserMailNav;
 
 
@@ -369,6 +369,8 @@ public class MainActivity extends AppCompatActivity
 
         //Set data navigation header
         mUserImageViewNav = (CircleImageView) header.findViewById(R.id.userImage);
+        mUserStatus = (CircleImageView) header.findViewById(R.id.userStatus);
+        mUserStatus.setEnabled(true);
         Glide.with(MainActivity.this)
                 .load(mFirebaseUser.getPhotoUrl())
                 .into(mUserImageViewNav);
