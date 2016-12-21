@@ -301,33 +301,6 @@ public class MainActivity extends AppCompatActivity
         mLinearLayoutListOnlineManager = new LinearLayoutManager(this);
         mLinearLayoutListOnlineManager.setStackFromEnd(false);
 
-
-//        mFirebaseListOnlineAdapter = new FirebaseRecyclerAdapter<StatusMessage,
-//                AccountViewHolder>(
-//                StatusMessage.class,
-//                R.layout.item_acc_online,
-//                AccountViewHolder.class,
-//                mFirebaseDatabaseReference.child(STATUS_CHILD)) {
-//
-//            @RequiresApi(api = Build.VERSION_CODES.HONEYCOMB)
-//            @Override
-//            protected void populateViewHolder(AccountViewHolder viewHolder,
-//                                              StatusMessage statusMessage, int position) {
-//                viewHolder.accountTextView.setText(statusMessage.getName());
-//                if (statusMessage.getPhotoUrl() == null) {
-//                    viewHolder.accountImageView
-//                            .setImageDrawable(ContextCompat
-//                                    .getDrawable(MainActivity.this,
-//                                            R.drawable.ic_account_circle_black_36dp));
-//                } else {
-//                    Glide.with(MainActivity.this)
-//                            .load(statusMessage.getPhotoUrl())
-//                            .into(viewHolder.accountImageView);
-//                }
-//                if (statusMessage.getStatus().equals("false"))
-//                    viewHolder.statusImageView.setEnabled(false);
-//            }
-//        };
         mFirebaseListOnlineAdapter = new MyFireBaseListOnlineRecycleAdapter(mFirebaseDatabaseReference.child(STATUS_CHILD),mUserId);
         mFirebaseListOnlineAdapter.registerAdapterDataObserver(new RecyclerView.AdapterDataObserver() {
             @Override
