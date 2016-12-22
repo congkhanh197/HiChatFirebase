@@ -10,7 +10,7 @@ Download app
 
 Pre-requisites
 ======
-- Pre-requisites
+- MinimumSDK API15: Android 4.0.3.
 
 Login
 =====
@@ -25,7 +25,7 @@ Copy message to clipboard
 ======
 ![Demo](https://j.gifs.com/KOEYLl.gif)
 
-New user of new message will be show
+New user or new message will be show
 ======
 ![Demo](https://j.gifs.com/Z4Xwz2.gif)
 ![Demo](https://j.gifs.com/lO6v77.gif)
