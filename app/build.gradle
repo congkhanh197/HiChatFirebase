@@ -13,7 +13,7 @@ android {
 
     defaultConfig {
         applicationId "com.google.firebase.codelab.friendlychat"
-        minSdkVersion 9
+        minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
